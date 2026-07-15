@@ -839,19 +839,6 @@
                 <tessellate>1</tessellate>
                 <coordinates>
                   168.56749,-44.526624,0
-                  168.567833,-44.523441,0
-                  168.563027,-44.522952,0
-                  168.56749,-44.526624,0
-                </coordinates>
-              </LinearRing>
-            </outerBoundaryIs>
-          </Polygon>
-          <Polygon>
-            <outerBoundaryIs>
-              <LinearRing>
-                <tessellate>1</tessellate>
-                <coordinates>
-                  168.56749,-44.526624,0
                   168.55719,-44.523931,0
                   168.54586,-44.522952,0
                   168.537621,-44.520749,0
