@@ -832,8 +832,7 @@
       <Placemark>
         <name>Richardsons</name>
         <styleUrl>#poly-FBC02D-2000-77-nodesc</styleUrl>
-        <MultiGeometry>
-          <Polygon>
+         <Polygon>
             <outerBoundaryIs>
               <LinearRing>
                 <tessellate>1</tessellate>
@@ -879,7 +878,6 @@
               </LinearRing>
             </outerBoundaryIs>
           </Polygon>
-        </MultiGeometry>
       </Placemark>
       <Placemark>
         <name>Charter Country</name>
