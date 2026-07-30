@@ -12,7 +12,7 @@ jobs:
       - uses: actions/checkout@v4
       - name: Fetch latest KML
         run: |
-          curl -fsSL "https://www.google.com/maps/d/edit?mid=1jhA2Bn5_XSxGyKV42inkg_8XgbL7jwA&usp=sharing${{ vars.MAP_ID }}&forcekml=1" -o HMH-FFFF.kml
+          curl -fsSL "${{ vars.MAP_ID }}&forcekml=1" -o HMH-FFFF.kml
           grep -q "<kml" HMH-FFFF.kml   # sanity check it's real KML, not an error page
       - name: Commit if changed
         run: |
