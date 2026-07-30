@@ -1,48 +1,8 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <kml xmlns="http://www.opengis.net/kml/2.2">
   <Document>
-    <name>HMH</name>
-    <description/>
-    <Style id="icon-1593-E65100-nodesc-normal">
-      <IconStyle>
-        <color>ff0051e6</color>
-        <scale>1</scale>
-        <Icon>
-          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
-        </Icon>
-      </IconStyle>
-      <LabelStyle>
-        <scale>0</scale>
-      </LabelStyle>
-      <BalloonStyle>
-        <text>&lt;h3&gt;$[name]&lt;/h3&gt;</text>
-      </BalloonStyle>
-    </Style>
-    <Style id="icon-1593-E65100-nodesc-highlight">
-      <IconStyle>
-        <color>ff0051e6</color>
-        <scale>1</scale>
-        <Icon>
-          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
-        </Icon>
-      </IconStyle>
-      <LabelStyle>
-        <scale>1</scale>
-      </LabelStyle>
-      <BalloonStyle>
-        <text>&lt;h3&gt;$[name]&lt;/h3&gt;</text>
-      </BalloonStyle>
-    </Style>
-    <StyleMap id="icon-1593-E65100-nodesc">
-      <Pair>
-        <key>normal</key>
-        <styleUrl>#icon-1593-E65100-nodesc-normal</styleUrl>
-      </Pair>
-      <Pair>
-        <key>highlight</key>
-        <styleUrl>#icon-1593-E65100-nodesc-highlight</styleUrl>
-      </Pair>
-    </StyleMap>
+    <name>HMH-F</name>
+    <description>Final production map</description>
     <Style id="icon-1634-BDBDBD-nodesc-normal">
       <IconStyle>
         <color>ffbdbdbd</color>
@@ -55,7 +15,7 @@
         <scale>0</scale>
       </LabelStyle>
       <BalloonStyle>
-        <text>&lt;h3&gt;$[name]&lt;/h3&gt;</text>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
       </BalloonStyle>
     </Style>
     <Style id="icon-1634-BDBDBD-nodesc-highlight">
@@ -70,7 +30,7 @@
         <scale>1</scale>
       </LabelStyle>
       <BalloonStyle>
-        <text>&lt;h3&gt;$[name]&lt;/h3&gt;</text>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
       </BalloonStyle>
     </Style>
     <StyleMap id="icon-1634-BDBDBD-nodesc">
@@ -83,9 +43,9 @@
         <styleUrl>#icon-1634-BDBDBD-nodesc-highlight</styleUrl>
       </Pair>
     </StyleMap>
-    <Style id="icon-1634-DB4436-nodesc-normal">
+    <Style id="icon-1634-F9A825-nodesc-normal">
       <IconStyle>
-        <color>ff3644db</color>
+        <color>ff25a8f9</color>
         <scale>1</scale>
         <Icon>
           <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
@@ -95,12 +55,12 @@
         <scale>0</scale>
       </LabelStyle>
       <BalloonStyle>
-        <text>&lt;h3&gt;$[name]&lt;/h3&gt;</text>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
       </BalloonStyle>
     </Style>
-    <Style id="icon-1634-DB4436-nodesc-highlight">
+    <Style id="icon-1634-F9A825-nodesc-highlight">
       <IconStyle>
-        <color>ff3644db</color>
+        <color>ff25a8f9</color>
         <scale>1</scale>
         <Icon>
           <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
@@ -110,91 +70,17 @@
         <scale>1</scale>
       </LabelStyle>
       <BalloonStyle>
-        <text>&lt;h3&gt;$[name]&lt;/h3&gt;</text>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
       </BalloonStyle>
     </Style>
-    <StyleMap id="icon-1634-DB4436-nodesc">
+    <StyleMap id="icon-1634-F9A825-nodesc">
       <Pair>
         <key>normal</key>
-        <styleUrl>#icon-1634-DB4436-nodesc-normal</styleUrl>
+        <styleUrl>#icon-1634-F9A825-nodesc-normal</styleUrl>
       </Pair>
       <Pair>
         <key>highlight</key>
-        <styleUrl>#icon-1634-DB4436-nodesc-highlight</styleUrl>
-      </Pair>
-    </StyleMap>
-    <Style id="icon-1634-E65100-normal">
-      <IconStyle>
-        <color>ff0051e6</color>
-        <scale>1</scale>
-        <Icon>
-          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
-        </Icon>
-      </IconStyle>
-      <LabelStyle>
-        <scale>0</scale>
-      </LabelStyle>
-    </Style>
-    <Style id="icon-1634-E65100-highlight">
-      <IconStyle>
-        <color>ff0051e6</color>
-        <scale>1</scale>
-        <Icon>
-          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
-        </Icon>
-      </IconStyle>
-      <LabelStyle>
-        <scale>1</scale>
-      </LabelStyle>
-    </Style>
-    <StyleMap id="icon-1634-E65100">
-      <Pair>
-        <key>normal</key>
-        <styleUrl>#icon-1634-E65100-normal</styleUrl>
-      </Pair>
-      <Pair>
-        <key>highlight</key>
-        <styleUrl>#icon-1634-E65100-highlight</styleUrl>
-      </Pair>
-    </StyleMap>
-    <Style id="icon-1634-E65100-nodesc-normal">
-      <IconStyle>
-        <color>ff0051e6</color>
-        <scale>1</scale>
-        <Icon>
-          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
-        </Icon>
-      </IconStyle>
-      <LabelStyle>
-        <scale>0</scale>
-      </LabelStyle>
-      <BalloonStyle>
-        <text>&lt;h3&gt;$[name]&lt;/h3&gt;</text>
-      </BalloonStyle>
-    </Style>
-    <Style id="icon-1634-E65100-nodesc-highlight">
-      <IconStyle>
-        <color>ff0051e6</color>
-        <scale>1</scale>
-        <Icon>
-          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
-        </Icon>
-      </IconStyle>
-      <LabelStyle>
-        <scale>1</scale>
-      </LabelStyle>
-      <BalloonStyle>
-        <text>&lt;h3&gt;$[name]&lt;/h3&gt;</text>
-      </BalloonStyle>
-    </Style>
-    <StyleMap id="icon-1634-E65100-nodesc">
-      <Pair>
-        <key>normal</key>
-        <styleUrl>#icon-1634-E65100-nodesc-normal</styleUrl>
-      </Pair>
-      <Pair>
-        <key>highlight</key>
-        <styleUrl>#icon-1634-E65100-nodesc-highlight</styleUrl>
+        <styleUrl>#icon-1634-F9A825-nodesc-highlight</styleUrl>
       </Pair>
     </StyleMap>
     <Style id="icon-1899-DB4436-nodesc-normal">
@@ -210,7 +96,7 @@
         <scale>0</scale>
       </LabelStyle>
       <BalloonStyle>
-        <text>&lt;h3&gt;$[name]&lt;/h3&gt;</text>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
       </BalloonStyle>
     </Style>
     <Style id="icon-1899-DB4436-nodesc-highlight">
@@ -226,7 +112,7 @@
         <scale>1</scale>
       </LabelStyle>
       <BalloonStyle>
-        <text>&lt;h3&gt;$[name]&lt;/h3&gt;</text>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
       </BalloonStyle>
     </Style>
     <StyleMap id="icon-1899-DB4436-nodesc">
@@ -239,162 +125,80 @@
         <styleUrl>#icon-1899-DB4436-nodesc-highlight</styleUrl>
       </Pair>
     </StyleMap>
-    <Style id="icon-1899-E65100-normal">
-      <IconStyle>
-        <color>ff0051e6</color>
-        <scale>1</scale>
-        <Icon>
-          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
-        </Icon>
-        <hotSpot x="32" xunits="pixels" y="64" yunits="insetPixels"/>
-      </IconStyle>
-      <LabelStyle>
-        <scale>0</scale>
-      </LabelStyle>
-    </Style>
-    <Style id="icon-1899-E65100-highlight">
-      <IconStyle>
-        <color>ff0051e6</color>
-        <scale>1</scale>
-        <Icon>
-          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
-        </Icon>
-        <hotSpot x="32" xunits="pixels" y="64" yunits="insetPixels"/>
-      </IconStyle>
-      <LabelStyle>
-        <scale>1</scale>
-      </LabelStyle>
-    </Style>
-    <StyleMap id="icon-1899-E65100">
-      <Pair>
-        <key>normal</key>
-        <styleUrl>#icon-1899-E65100-normal</styleUrl>
-      </Pair>
-      <Pair>
-        <key>highlight</key>
-        <styleUrl>#icon-1899-E65100-highlight</styleUrl>
-      </Pair>
-    </StyleMap>
-    <Style id="icon-1899-E65100-nodesc-normal">
-      <IconStyle>
-        <color>ff0051e6</color>
-        <scale>1</scale>
-        <Icon>
-          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
-        </Icon>
-        <hotSpot x="32" xunits="pixels" y="64" yunits="insetPixels"/>
-      </IconStyle>
-      <LabelStyle>
-        <scale>0</scale>
-      </LabelStyle>
-      <BalloonStyle>
-        <text>&lt;h3&gt;$[name]&lt;/h3&gt;</text>
-      </BalloonStyle>
-    </Style>
-    <Style id="icon-1899-E65100-nodesc-highlight">
-      <IconStyle>
-        <color>ff0051e6</color>
-        <scale>1</scale>
-        <Icon>
-          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
-        </Icon>
-        <hotSpot x="32" xunits="pixels" y="64" yunits="insetPixels"/>
-      </IconStyle>
-      <LabelStyle>
-        <scale>1</scale>
-      </LabelStyle>
-      <BalloonStyle>
-        <text>&lt;h3&gt;$[name]&lt;/h3&gt;</text>
-      </BalloonStyle>
-    </Style>
-    <StyleMap id="icon-1899-E65100-nodesc">
-      <Pair>
-        <key>normal</key>
-        <styleUrl>#icon-1899-E65100-nodesc-normal</styleUrl>
-      </Pair>
-      <Pair>
-        <key>highlight</key>
-        <styleUrl>#icon-1899-E65100-nodesc-highlight</styleUrl>
-      </Pair>
-    </StyleMap>
-    <Style id="icon-1899-F9A825-nodesc-normal">
-      <IconStyle>
-        <color>ff25a8f9</color>
-        <scale>1</scale>
-        <Icon>
-          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
-        </Icon>
-        <hotSpot x="32" xunits="pixels" y="64" yunits="insetPixels"/>
-      </IconStyle>
-      <LabelStyle>
-        <scale>0</scale>
-      </LabelStyle>
-      <BalloonStyle>
-        <text>&lt;h3&gt;$[name]&lt;/h3&gt;</text>
-      </BalloonStyle>
-    </Style>
-    <Style id="icon-1899-F9A825-nodesc-highlight">
-      <IconStyle>
-        <color>ff25a8f9</color>
-        <scale>1</scale>
-        <Icon>
-          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
-        </Icon>
-        <hotSpot x="32" xunits="pixels" y="64" yunits="insetPixels"/>
-      </IconStyle>
-      <LabelStyle>
-        <scale>1</scale>
-      </LabelStyle>
-      <BalloonStyle>
-        <text>&lt;h3&gt;$[name]&lt;/h3&gt;</text>
-      </BalloonStyle>
-    </Style>
-    <StyleMap id="icon-1899-F9A825-nodesc">
-      <Pair>
-        <key>normal</key>
-        <styleUrl>#icon-1899-F9A825-nodesc-normal</styleUrl>
-      </Pair>
-      <Pair>
-        <key>highlight</key>
-        <styleUrl>#icon-1899-F9A825-nodesc-highlight</styleUrl>
-      </Pair>
-    </StyleMap>
-    <Style id="poly-FBC02D-1200-77-nodesc-normal">
+    <Style id="poly-F9A825-2000-77-nodesc-normal">
       <LineStyle>
-        <color>ff2dc0fb</color>
-        <width>1.2</width>
+        <color>ff25a8f9</color>
+        <width>2</width>
       </LineStyle>
       <PolyStyle>
-        <color>4d2dc0fb</color>
+        <color>4d25a8f9</color>
         <fill>1</fill>
         <outline>1</outline>
       </PolyStyle>
       <BalloonStyle>
-        <text>&lt;h3&gt;$[name]&lt;/h3&gt;</text>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
       </BalloonStyle>
     </Style>
-    <Style id="poly-FBC02D-1200-77-nodesc-highlight">
+    <Style id="poly-F9A825-2000-77-nodesc-highlight">
       <LineStyle>
-        <color>ff2dc0fb</color>
-        <width>1.8</width>
+        <color>ff25a8f9</color>
+        <width>3</width>
       </LineStyle>
       <PolyStyle>
-        <color>4d2dc0fb</color>
+        <color>4d25a8f9</color>
         <fill>1</fill>
         <outline>1</outline>
       </PolyStyle>
       <BalloonStyle>
-        <text>&lt;h3&gt;$[name]&lt;/h3&gt;</text>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
       </BalloonStyle>
     </Style>
-    <StyleMap id="poly-FBC02D-1200-77-nodesc">
+    <StyleMap id="poly-F9A825-2000-77-nodesc">
       <Pair>
         <key>normal</key>
-        <styleUrl>#poly-FBC02D-1200-77-nodesc-normal</styleUrl>
+        <styleUrl>#poly-F9A825-2000-77-nodesc-normal</styleUrl>
       </Pair>
       <Pair>
         <key>highlight</key>
-        <styleUrl>#poly-FBC02D-1200-77-nodesc-highlight</styleUrl>
+        <styleUrl>#poly-F9A825-2000-77-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="poly-FBC02D-2000-48-nodesc-normal">
+      <LineStyle>
+        <color>ff2dc0fb</color>
+        <width>2</width>
+      </LineStyle>
+      <PolyStyle>
+        <color>302dc0fb</color>
+        <fill>1</fill>
+        <outline>1</outline>
+      </PolyStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="poly-FBC02D-2000-48-nodesc-highlight">
+      <LineStyle>
+        <color>ff2dc0fb</color>
+        <width>3</width>
+      </LineStyle>
+      <PolyStyle>
+        <color>302dc0fb</color>
+        <fill>1</fill>
+        <outline>1</outline>
+      </PolyStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="poly-FBC02D-2000-48-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#poly-FBC02D-2000-48-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#poly-FBC02D-2000-48-nodesc-highlight</styleUrl>
       </Pair>
     </StyleMap>
     <Style id="poly-FBC02D-2000-77-nodesc-normal">
@@ -408,7 +212,7 @@
         <outline>1</outline>
       </PolyStyle>
       <BalloonStyle>
-        <text>&lt;h3&gt;$[name]&lt;/h3&gt;</text>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
       </BalloonStyle>
     </Style>
     <Style id="poly-FBC02D-2000-77-nodesc-highlight">
@@ -422,7 +226,7 @@
         <outline>1</outline>
       </PolyStyle>
       <BalloonStyle>
-        <text>&lt;h3&gt;$[name]&lt;/h3&gt;</text>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
       </BalloonStyle>
     </Style>
     <StyleMap id="poly-FBC02D-2000-77-nodesc">
@@ -438,8 +242,27 @@
     <Folder>
       <name>BUCHANANS</name>
       <Placemark>
+        <name>Buchanan Peaks</name>
+        <styleUrl>#icon-1899-DB4436-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            168.996878,-44.523564,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name><![CDATA[Richardsons &
+Charter Country]]></name>
+        <styleUrl>#icon-1634-F9A825-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            168.879267,-44.408917,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
         <name>BUCHANANS</name>
-        <styleUrl>#poly-FBC02D-2000-77-nodesc</styleUrl>
+        <styleUrl>#poly-FBC02D-2000-48-nodesc</styleUrl>
         <Polygon>
           <outerBoundaryIs>
             <LinearRing>
@@ -486,7 +309,7 @@
       </Placemark>
       <Placemark>
         <name>Mount Alta</name>
-        <styleUrl>#icon-1634-DB4436-nodesc</styleUrl>
+        <styleUrl>#icon-1899-DB4436-nodesc</styleUrl>
         <Point>
           <coordinates>
             168.9725,-44.503333,0
@@ -495,7 +318,7 @@
       </Placemark>
       <Placemark>
         <name>Triple Peak</name>
-        <styleUrl>#icon-1634-DB4436-nodesc</styleUrl>
+        <styleUrl>#icon-1899-DB4436-nodesc</styleUrl>
         <Point>
           <coordinates>
             168.933333,-44.483333,0
@@ -504,7 +327,7 @@
       </Placemark>
       <Placemark>
         <name>Dragonfly Peak</name>
-        <styleUrl>#icon-1634-DB4436-nodesc</styleUrl>
+        <styleUrl>#icon-1899-DB4436-nodesc</styleUrl>
         <Point>
           <coordinates>
             168.879267,-44.408917,0
@@ -516,7 +339,7 @@
         <styleUrl>#icon-1634-BDBDBD-nodesc</styleUrl>
         <Point>
           <coordinates>
-            168.8957418,-44.632761,0
+            168.949815,-44.711988,0
           </coordinates>
         </Point>
       </Placemark>
@@ -534,7 +357,7 @@
       </Placemark>
       <Placemark>
         <name>Mount Hyde</name>
-        <styleUrl>#icon-1634-DB4436-nodesc</styleUrl>
+        <styleUrl>#icon-1899-DB4436-nodesc</styleUrl>
         <Point>
           <coordinates>
             168.799167,-44.754167,0
@@ -543,7 +366,7 @@
       </Placemark>
       <Placemark>
         <name>Black Peak</name>
-        <styleUrl>#icon-1634-DB4436-nodesc</styleUrl>
+        <styleUrl>#icon-1899-DB4436-nodesc</styleUrl>
         <Point>
           <coordinates>
             168.830833,-44.584167,0
@@ -551,8 +374,8 @@
         </Point>
       </Placemark>
       <Placemark>
-        <name>Wānaka Office</name>
-        <styleUrl>#icon-1899-F9A825-nodesc</styleUrl>
+        <name>Wānaka Base</name>
+        <styleUrl>#icon-1899-DB4436-nodesc</styleUrl>
         <Point>
           <coordinates>
             169.136861,-44.677937,0
@@ -561,7 +384,7 @@
       </Placemark>
       <Placemark>
         <name>Aoraki / Mt.Cook Base</name>
-        <styleUrl>#icon-1593-E65100-nodesc</styleUrl>
+        <styleUrl>#icon-1899-DB4436-nodesc</styleUrl>
         <Point>
           <coordinates>
             170.124273,-43.911245,0
@@ -570,10 +393,10 @@
       </Placemark>
       <Placemark>
         <name>Queenstown Base</name>
-        <styleUrl>#icon-1593-E65100-nodesc</styleUrl>
+        <styleUrl>#icon-1899-DB4436-nodesc</styleUrl>
         <Point>
           <coordinates>
-            168.7365316,-45.0224124,0
+            168.700826,-45.019743,0
           </coordinates>
         </Point>
       </Placemark>
@@ -631,8 +454,8 @@
         </Polygon>
       </Placemark>
       <Placemark>
-        <name>Mount Vanguard</name>
-        <styleUrl>#icon-1634-DB4436-nodesc</styleUrl>
+        <name>Vanguard Peak</name>
+        <styleUrl>#icon-1899-DB4436-nodesc</styleUrl>
         <Point>
           <coordinates>
             168.7451,-44.8525,0
@@ -726,7 +549,7 @@
       </Placemark>
       <Placemark>
         <name>Mount Motatapu</name>
-        <styleUrl>#icon-1634-DB4436-nodesc</styleUrl>
+        <styleUrl>#icon-1899-DB4436-nodesc</styleUrl>
         <Point>
           <coordinates>
             168.833333,-44.716667,0
@@ -734,20 +557,20 @@
         </Point>
       </Placemark>
       <Placemark>
-        <name>Mount Centaur</name>
-        <styleUrl>#icon-1634-DB4436-nodesc</styleUrl>
+        <name>End Peak</name>
+        <styleUrl>#icon-1634-BDBDBD-nodesc</styleUrl>
         <Point>
           <coordinates>
-            168.574167,-44.635833,0
+            168.916667,-44.683333,0
           </coordinates>
         </Point>
       </Placemark>
       <Placemark>
-        <name>Queenstown Ofice</name>
-        <styleUrl>#icon-1899-F9A825-nodesc</styleUrl>
+        <name>Centaur Peaks</name>
+        <styleUrl>#icon-1899-DB4436-nodesc</styleUrl>
         <Point>
           <coordinates>
-            168.6597945,-45.0312488,0
+            168.574167,-44.635833,0
           </coordinates>
         </Point>
       </Placemark>
@@ -762,32 +585,32 @@
             <LinearRing>
               <tessellate>1</tessellate>
               <coordinates>
-                168.7857827,-44.529519,0
-                168.7672537,-44.532944,0
-                168.7597047,-44.536857,0
-                168.7219417,-44.538564,0
-                168.7130237,-44.556411,0
-                168.7064987,-44.573277,0
-                168.6889927,-44.592583,0
-                168.7073607,-44.591113,0
-                168.7154247,-44.589032,0
-                168.7269197,-44.59966,0
-                168.7343017,-44.602591,0
-                168.7373877,-44.598429,0
-                168.7425277,-44.586694,0
-                168.7521317,-44.584011,0
-                168.7627657,-44.583287,0
-                168.7871367,-44.583534,0
-                168.8322767,-44.585744,0
-                168.8231807,-44.577189,0
-                168.8159747,-44.57426,0
-                168.8238797,-44.568885,0
-                168.8252607,-44.562536,0
-                168.8273117,-44.552756,0
-                168.8166637,-44.534898,0
-                168.8187207,-44.522909,0
-                168.8039247,-44.519914,0
-                168.7857827,-44.529519,0
+                168.785611,-44.529519,0
+                168.767082,-44.532944,0
+                168.759533,-44.536857,0
+                168.72177,-44.538564,0
+                168.712852,-44.556411,0
+                168.706327,-44.573277,0
+                168.688821,-44.592583,0
+                168.707189,-44.591113,0
+                168.715253,-44.589032,0
+                168.726748,-44.59966,0
+                168.73413,-44.602591,0
+                168.737216,-44.598429,0
+                168.742356,-44.586694,0
+                168.75196,-44.584011,0
+                168.762594,-44.583287,0
+                168.786965,-44.583534,0
+                168.832105,-44.585744,0
+                168.823009,-44.577189,0
+                168.815803,-44.57426,0
+                168.823708,-44.568885,0
+                168.825089,-44.562536,0
+                168.82714,-44.552756,0
+                168.816492,-44.534898,0
+                168.818549,-44.522909,0
+                168.803753,-44.519914,0
+                168.785611,-44.529519,0
               </coordinates>
             </LinearRing>
           </outerBoundaryIs>
@@ -795,25 +618,10 @@
       </Placemark>
       <Placemark>
         <name>Fog Peak</name>
-        <styleUrl>#icon-1634-DB4436-nodesc</styleUrl>
+        <styleUrl>#icon-1899-DB4436-nodesc</styleUrl>
         <Point>
           <coordinates>
             168.805,-44.523333,0
-          </coordinates>
-        </Point>
-      </Placemark>
-      <Placemark>
-        <name>Craigroyston Peak</name>
-        <description>&lt;img src="https://mymaps.usercontent.google.com/hostedimage/m/*/3AE5a_GzmLCVWQSTm0Sr_5VHL3YkrpUZtvK67cmdnxaMLOHqqBnO_BMcd9rVZ3qBXHyPexSS1T748HC39FO630EkPMZ9cPWhinTMTbmNPphFxxk_Ji1UhvaeZ2kj1cdZYCJ1mNZxN6o2zqPR0vseKA7GNXb-P--tx69zLLtZQ2Lk2jW5PwFdnDEidsvOfMz0zhn8T9z_LRdDBbJUT2wJRnhhXT6IBgoY_WU4xKVOKtitr4GZheAHwAIx6HSRpH6U?authuser=1&amp;fife=s16383" height="200" width="auto" /&gt;&lt;br&gt;&lt;br&gt;</description>
-        <styleUrl>#icon-1634-E65100</styleUrl>
-        <ExtendedData>
-          <Data name="gx_media_links">
-            <value>https://mymaps.usercontent.google.com/hostedimage/m/*/3AE5a_GzmLCVWQSTm0Sr_5VHL3YkrpUZtvK67cmdnxaMLOHqqBnO_BMcd9rVZ3qBXHyPexSS1T748HC39FO630EkPMZ9cPWhinTMTbmNPphFxxk_Ji1UhvaeZ2kj1cdZYCJ1mNZxN6o2zqPR0vseKA7GNXb-P--tx69zLLtZQ2Lk2jW5PwFdnDEidsvOfMz0zhn8T9z_LRdDBbJUT2wJRnhhXT6IBgoY_WU4xKVOKtitr4GZheAHwAIx6HSRpH6U?authuser=1&amp;fife=s16383</value>
-          </Data>
-        </ExtendedData>
-        <Point>
-          <coordinates>
-            168.7619688,-44.538464,0
           </coordinates>
         </Point>
       </Placemark>
@@ -822,7 +630,7 @@
       <name>Richardsons</name>
       <Placemark>
         <name>Mount Ferguson</name>
-        <styleUrl>#icon-1634-DB4436-nodesc</styleUrl>
+        <styleUrl>#icon-1899-DB4436-nodesc</styleUrl>
         <Point>
           <coordinates>
             168.55,-44.666667,0
@@ -830,9 +638,23 @@
         </Point>
       </Placemark>
       <Placemark>
-        <name>Richardsons</name>
+        <name>Richardson</name>
         <styleUrl>#poly-FBC02D-2000-77-nodesc</styleUrl>
-         <Polygon>
+        <MultiGeometry>
+          <Polygon>
+            <outerBoundaryIs>
+              <LinearRing>
+                <tessellate>1</tessellate>
+                <coordinates>
+                  168.56749,-44.526624,0
+                  168.567833,-44.523441,0
+                  168.563027,-44.522952,0
+                  168.56749,-44.526624,0
+                </coordinates>
+              </LinearRing>
+            </outerBoundaryIs>
+          </Polygon>
+          <Polygon>
             <outerBoundaryIs>
               <LinearRing>
                 <tessellate>1</tessellate>
@@ -878,10 +700,11 @@
               </LinearRing>
             </outerBoundaryIs>
           </Polygon>
+        </MultiGeometry>
       </Placemark>
       <Placemark>
         <name>Charter Country</name>
-        <styleUrl>#poly-FBC02D-2000-77-nodesc</styleUrl>
+        <styleUrl>#poly-F9A825-2000-77-nodesc</styleUrl>
         <Polygon>
           <outerBoundaryIs>
             <LinearRing>
@@ -929,7 +752,7 @@
       </Placemark>
       <Placemark>
         <name>Mount Ansted</name>
-        <styleUrl>#icon-1634-DB4436-nodesc</styleUrl>
+        <styleUrl>#icon-1899-DB4436-nodesc</styleUrl>
         <Point>
           <coordinates>
             168.6,-44.533333,0
@@ -938,7 +761,7 @@
       </Placemark>
       <Placemark>
         <name>Mount Tyndall</name>
-        <styleUrl>#icon-1634-DB4436-nodesc</styleUrl>
+        <styleUrl>#icon-1899-DB4436-nodesc</styleUrl>
         <Point>
           <coordinates>
             168.65,-44.516667,0
@@ -946,8 +769,8 @@
         </Point>
       </Placemark>
       <Placemark>
-        <name>Mount Headlong</name>
-        <styleUrl>#icon-1634-DB4436-nodesc</styleUrl>
+        <name>Headlong Peak</name>
+        <styleUrl>#icon-1899-DB4436-nodesc</styleUrl>
         <Point>
           <coordinates>
             168.5975,-44.54,0
@@ -1004,7 +827,7 @@
       </Placemark>
       <Placemark>
         <name>Cecil Peak</name>
-        <styleUrl>#icon-1634-DB4436-nodesc</styleUrl>
+        <styleUrl>#icon-1899-DB4436-nodesc</styleUrl>
         <Point>
           <coordinates>
             168.629167,-45.109167,0
@@ -1031,39 +854,34 @@
             <LinearRing>
               <tessellate>1</tessellate>
               <coordinates>
-                168.8212508,-45.119522,0
-                168.8161008,-45.127395,0
-                168.8360137,-45.137084,0
-                168.8303496,-45.1453172,0
-                168.8253708,-45.151613,0
-                168.7965319,-45.155486,0
-                168.7785051,-45.1479809,0
-                168.7646033,-45.1397472,0
-                168.7635732,-45.1423197,0
-                168.7666634,-45.1492509,0
-                168.7629701,-45.2273401,0
-                168.771638,-45.2294814,0
-                168.7800522,-45.2165848,0
-                168.7889657,-45.2312661,0
-                168.795502,-45.2358076,0
-                168.8260578,-45.195178,0
-                168.8315428,-45.1929372,0
-                168.8367011,-45.1885251,0
-                168.8394467,-45.169769,0
-                168.8572996,-45.154518,0
-                168.9156644,-45.162265,0
-                168.9915381,-45.124973,0
-                168.9750591,-45.10862,0
-                168.9426153,-45.124125,0
-                168.9292253,-45.121703,0
-                168.9139474,-45.126063,0
-                168.8868255,-45.125094,0
-                168.8983265,-45.114072,0
-                168.8794436,-45.086445,0
-                168.8507767,-45.069838,0
-                168.8337817,-45.054561,0
-                168.8226238,-45.06317,0
-                168.8212508,-45.119522,0
+                168.821251,-45.119764,0
+                168.816101,-45.127637,0
+                168.836014,-45.137326,0
+                168.825371,-45.151855,0
+                168.796532,-45.155728,0
+                168.76323,-45.138294,0
+                168.76941,-45.147798,0
+                168.777649,-45.160691,0
+                168.802012,-45.182405,0
+                168.799622,-45.233632,0
+                168.826058,-45.19542,0
+                168.832573,-45.245899,0
+                168.859704,-45.248501,0
+                168.839447,-45.170011,0
+                168.8573,-45.15476,0
+                168.915665,-45.162507,0
+                168.991539,-45.125215,0
+                168.97506,-45.108862,0
+                168.942616,-45.124367,0
+                168.929226,-45.121945,0
+                168.913948,-45.126305,0
+                168.886826,-45.125336,0
+                168.898327,-45.114314,0
+                168.879444,-45.086687,0
+                168.850777,-45.07008,0
+                168.833782,-45.054803,0
+                168.822624,-45.063412,0
+                168.821251,-45.119764,0
               </coordinates>
             </LinearRing>
           </outerBoundaryIs>
@@ -1071,7 +889,7 @@
       </Placemark>
       <Placemark>
         <name>Doolans</name>
-        <styleUrl>#icon-1634-DB4436-nodesc</styleUrl>
+        <styleUrl>#icon-1899-DB4436-nodesc</styleUrl>
         <Point>
           <coordinates>
             168.852957,-45.130033,0
@@ -1098,7 +916,7 @@
       </Placemark>
       <Placemark>
         <name>Helicopter Ridge</name>
-        <styleUrl>#icon-1899-E65100-nodesc</styleUrl>
+        <styleUrl>#icon-1899-DB4436-nodesc</styleUrl>
         <Point>
           <coordinates>
             168.863615,-45.119617,0
@@ -1106,7 +924,7 @@
         </Point>
       </Placemark>
       <Placemark>
-        <name>Remarkables Resort</name>
+        <name>Remarkables Skifield Car Park</name>
         <styleUrl>#icon-1634-BDBDBD-nodesc</styleUrl>
         <Point>
           <coordinates>
@@ -1114,18 +932,18 @@
           </coordinates>
         </Point>
       </Placemark>
-      <Placemark>
-        <name>Wanaka Base</name>
-        <styleUrl>#icon-1593-E65100-nodesc</styleUrl>
-        <Point>
-          <coordinates>
-            168.9265062,-44.6336201,0
-          </coordinates>
-        </Point>
-      </Placemark>
     </Folder>
     <Folder>
       <name>Ben Ohaus</name>
+      <Placemark>
+        <name>Ben Ohau Range</name>
+        <styleUrl>#icon-1634-F9A825-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            170,-44,0
+          </coordinates>
+        </Point>
+      </Placemark>
       <Placemark>
         <name>Ben Ohaus Range</name>
         <styleUrl>#poly-FBC02D-2000-77-nodesc</styleUrl>
@@ -1134,61 +952,49 @@
             <LinearRing>
               <tessellate>1</tessellate>
               <coordinates>
-                169.9835181,-43.8536947,0
-                169.9666952,-43.9229757,0
-                169.9581124,-43.9504182,0
-                169.9605156,-43.9659876,0
+                170.008924,-43.949676,0
+                169.996221,-43.951654,0
+                169.982145,-43.961787,0
+                169.969442,-43.966976,0
+                169.959142,-43.97513,0
+                169.957082,-43.990693,0
                 169.939916,-44.004771,0
                 169.934079,-44.028473,0
                 169.92378,-44.053893,0
-                169.9059269,-44.0874394,0
-                169.8762222,-44.1574011,0
-                169.8994771,-44.1845069,0
-                169.9364827,-44.1948604,0
-                169.9514436,-44.1804331,0
-                169.9759651,-44.1010015,0
-                170.0027443,-44.1039594,0
-                170.0434331,-44.097425,0
-                170.0690054,-44.0899056,0
-                170.0988744,-44.0768356,0
-                170.1242799,-44.0571003,0
-                170.1311464,-44.0178571,0
-                170.1277136,-43.9729058,0
-                170.131147,-43.9447325,0
-                170.1211906,-43.9244586,0
-                170.11501,-43.8747351,0
-                170.1098607,-43.8205105,0
-                170.1053972,-43.7977168,0
-                170.0817047,-43.7858225,0
-                170.0494354,-43.7811121,0
-                170.0041171,-43.7917697,0
-                169.9835181,-43.8536947,0
+                169.925153,-44.067708,0
+                169.947469,-44.077575,0
+                169.989698,-44.078315,0
+                170.010984,-44.075848,0
+                170.038793,-44.070175,0
+                170.047376,-44.064502,0
+                170.056302,-44.052659,0
+                170.067975,-44.039086,0
+                170.082395,-44.029213,0
+                170.086515,-44.016376,0
+                170.097158,-44.015388,0
+                170.105397,-43.986,0
+                170.089948,-43.970435,0
+                170.057332,-43.963022,0
+                170.020253,-43.95808,0
+                170.008237,-43.951654,0
+                170.008924,-43.949676,0
               </coordinates>
             </LinearRing>
           </outerBoundaryIs>
         </Polygon>
       </Placemark>
-      <Placemark>
-        <name>Glentanner Peak</name>
-        <styleUrl>#icon-1634-E65100-nodesc</styleUrl>
-        <Point>
-          <coordinates>
-            170.0199307,-43.907956,0
-          </coordinates>
-        </Point>
-      </Placemark>
-      <Placemark>
-        <name>Mount Dark</name>
-        <styleUrl>#icon-1634-E65100-nodesc</styleUrl>
-        <Point>
-          <coordinates>
-            170.044827,-43.8820916,0
-          </coordinates>
-        </Point>
-      </Placemark>
     </Folder>
     <Folder>
       <name>Gammack</name>
+      <Placemark>
+        <name>Green Point Hut</name>
+        <styleUrl>#icon-1634-F9A825-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            170.239647,-43.790173,0
+          </coordinates>
+        </Point>
+      </Placemark>
       <Placemark>
         <name>Gammack</name>
         <styleUrl>#poly-FBC02D-2000-77-nodesc</styleUrl>
@@ -1197,168 +1003,62 @@
             <LinearRing>
               <tessellate>1</tessellate>
               <coordinates>
-                170.2816003,-43.7206107,0
-                170.2678671,-43.7434332,0
-                170.2483019,-43.7684869,0
-                170.2301019,-43.7950019,0
-                170.2174052,-43.8180441,0
-                170.211052,-43.8280771,0
-                170.2431479,-43.8485069,0
+                170.216369,-43.702743,0
+                170.215682,-43.706217,0
+                170.18341,-43.754842,0
+                170.186843,-43.830182,0
                 170.337905,-43.886624,0
-                170.3705203,-43.8811797,0
-                170.3900969,-43.8581582,0
-                170.3997032,-43.8314202,0
-                170.4013806,-43.8232367,0
-                170.3950401,-43.7947399,0
-                170.3983096,-43.7702055,0
-                170.3969563,-43.7290458,0
-                170.4018483,-43.7145293,0
-                170.3943813,-43.7010054,0
-                170.3841618,-43.6821515,0
-                170.377341,-43.6749438,0
-                170.3682892,-43.6723299,0
-                170.3028858,-43.6828831,0
-                170.2816003,-43.7206107,0
+                170.445708,-43.8792,0
+                170.493087,-43.826219,0
+                170.513686,-43.732519,0
+                170.49034,-43.682387,0
+                170.429229,-43.66103,0
+                170.27542,-43.672951,0
+                170.216369,-43.702743,0
               </coordinates>
             </LinearRing>
           </outerBoundaryIs>
         </Polygon>
       </Placemark>
-      <Placemark>
-        <name>The Needles</name>
-        <description>&lt;img src="https://mymaps.usercontent.google.com/hostedimage/m/*/3AE5a_GwEU4ujjE1g1feFn2oAUOF479NKvaw7nBv53zYctiqHniUUTqg7Yp6CYzXhtOdhEZk_p1nlwCU__SOJaiUkovq89dIpNDO9dK-AtMP7rQ1SNNfuEMrAbtFiZ3uLQfNHJz8lDyPcPwIwkMEq06xyM73MoBn-N9FYn6854Qt6LnyQO_aWxYsxLRrphsaMC56wtKn9kQBo-5tRMyBxb6y8R-ySqVqi98nVO8nuckqAMCuEBJ_nnj3im0I7X_g?authuser=1&amp;fife=s16383" height="200" width="auto" /&gt;&lt;br&gt;&lt;br&gt;</description>
-        <styleUrl>#icon-1899-E65100</styleUrl>
-        <ExtendedData>
-          <Data name="gx_media_links">
-            <value>https://mymaps.usercontent.google.com/hostedimage/m/*/3AE5a_GwEU4ujjE1g1feFn2oAUOF479NKvaw7nBv53zYctiqHniUUTqg7Yp6CYzXhtOdhEZk_p1nlwCU__SOJaiUkovq89dIpNDO9dK-AtMP7rQ1SNNfuEMrAbtFiZ3uLQfNHJz8lDyPcPwIwkMEq06xyM73MoBn-N9FYn6854Qt6LnyQO_aWxYsxLRrphsaMC56wtKn9kQBo-5tRMyBxb6y8R-ySqVqi98nVO8nuckqAMCuEBJ_nnj3im0I7X_g?authuser=1&amp;fife=s16383</value>
-          </Data>
-        </ExtendedData>
-        <Point>
-          <coordinates>
-            170.317533,-43.7363981,0
-          </coordinates>
-        </Point>
-      </Placemark>
-      <Placemark>
-        <name>The Pyramid</name>
-        <description>&lt;img src="https://mymaps.usercontent.google.com/hostedimage/m/*/3AE5a_GzgMOJvFSUJATHSIpg0UjHBDFNh1mlbtPiGZuMY-eT2ZYAxUeOcjs1U868ZETlIMvdZCWfr2eurN4MBzs_cn20-V1kpnUWoxeSSpK9G4o_Mhn5p25B-Lw8d_WR5GjeU6zD4xAGebiSxa6wamGjDunRbS4HjQtXQqtAADL7Th9nhuoi2E5BZCdDWnhPUoJxzbdtBByA3pCnKF_t8c321qOdAruVzW0RAGqQEYeiIWm_KfXxI0q2HmXa4px0?authuser=1&amp;fife=s16383" height="200" width="auto" /&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;img src="https://mymaps.usercontent.google.com/hostedimage/m/*/3AE5a_GyBBI1Tx4Dn4nSL72oVj1C-Mr9MQEL3oia3gR0hliaep7HNJioK_ishoG_xvs81fimiRe6Ngy6CIuWmUluACnqVH7RxzHuQI1bWgcVDShXu71IbhoHZs1d15ttqdeD_BZGduMBd9lYSD-5jsn0WTF-Zdsp9ocC3zjLw0jWJGzHHNomhyZL3epImeJ1Z0SsT-RszLV0LJbVXs7yvrxgHVMGOnb20-SqZ4-DwcI-lyMlGiq6Hyt71txHmvwc?authuser=1&amp;fife=s16383" height="200" width="auto" /&gt;</description>
-        <styleUrl>#icon-1634-E65100</styleUrl>
-        <ExtendedData>
-          <Data name="gx_media_links">
-            <value>https://mymaps.usercontent.google.com/hostedimage/m/*/3AE5a_GzgMOJvFSUJATHSIpg0UjHBDFNh1mlbtPiGZuMY-eT2ZYAxUeOcjs1U868ZETlIMvdZCWfr2eurN4MBzs_cn20-V1kpnUWoxeSSpK9G4o_Mhn5p25B-Lw8d_WR5GjeU6zD4xAGebiSxa6wamGjDunRbS4HjQtXQqtAADL7Th9nhuoi2E5BZCdDWnhPUoJxzbdtBByA3pCnKF_t8c321qOdAruVzW0RAGqQEYeiIWm_KfXxI0q2HmXa4px0?authuser=1&amp;fife=s16383 https://mymaps.usercontent.google.com/hostedimage/m/*/3AE5a_GyBBI1Tx4Dn4nSL72oVj1C-Mr9MQEL3oia3gR0hliaep7HNJioK_ishoG_xvs81fimiRe6Ngy6CIuWmUluACnqVH7RxzHuQI1bWgcVDShXu71IbhoHZs1d15ttqdeD_BZGduMBd9lYSD-5jsn0WTF-Zdsp9ocC3zjLw0jWJGzHHNomhyZL3epImeJ1Z0SsT-RszLV0LJbVXs7yvrxgHVMGOnb20-SqZ4-DwcI-lyMlGiq6Hyt71txHmvwc?authuser=1&amp;fife=s16383</value>
-          </Data>
-        </ExtendedData>
-        <Point>
-          <coordinates>
-            170.2749996,-43.7916528,0
-          </coordinates>
-        </Point>
-      </Placemark>
-      <Placemark>
-        <name>The Perch</name>
-        <styleUrl>#icon-1899-E65100-nodesc</styleUrl>
-        <Point>
-          <coordinates>
-            170.3107988,-43.7634397,0
-          </coordinates>
-        </Point>
-      </Placemark>
-      <Placemark>
-        <name>Mount Stevenson</name>
-        <description>&lt;img src="https://mymaps.usercontent.google.com/hostedimage/m/*/3AE5a_GyS7Bq3F0fVli5xnM3Ojsbv_3aeGmntmKGOgS7kgCLuebKUEX7WKzgNACeDs_ijA-bXmKpT0OAk3viWwS3Aarwau1iaY9mjUOmluFSGfRhtRzFYdXhh9Z7Rf0htnXEIbu6k1gsi0srFwW-1hsHTNWczdt1D1_Jn33Hh4crMIhIM38RWmstqrfg3Nl6zW1vw6gq0at8MEUfvJE-iAoiDLAdiW85ddE8q8TFQLJH2brzNpXV1LVX62sPiaSA?authuser=1&amp;fife=s16383" height="200" width="auto" /&gt;&lt;br&gt;&lt;br&gt;</description>
-        <styleUrl>#icon-1634-E65100</styleUrl>
-        <ExtendedData>
-          <Data name="gx_media_links">
-            <value>https://mymaps.usercontent.google.com/hostedimage/m/*/3AE5a_GyS7Bq3F0fVli5xnM3Ojsbv_3aeGmntmKGOgS7kgCLuebKUEX7WKzgNACeDs_ijA-bXmKpT0OAk3viWwS3Aarwau1iaY9mjUOmluFSGfRhtRzFYdXhh9Z7Rf0htnXEIbu6k1gsi0srFwW-1hsHTNWczdt1D1_Jn33Hh4crMIhIM38RWmstqrfg3Nl6zW1vw6gq0at8MEUfvJE-iAoiDLAdiW85ddE8q8TFQLJH2brzNpXV1LVX62sPiaSA?authuser=1&amp;fife=s16383</value>
-          </Data>
-        </ExtendedData>
-        <Point>
-          <coordinates>
-            170.3030076,-43.8259469,0
-          </coordinates>
-        </Point>
-      </Placemark>
-      <Placemark>
-        <name>Green Point Hut</name>
-        <styleUrl>#icon-1899-E65100-nodesc</styleUrl>
-        <Point>
-          <coordinates>
-            170.239647,-43.790173,0
-          </coordinates>
-        </Point>
-      </Placemark>
     </Folder>
     <Folder>
-      <name>Naumann Range</name>
+      <name>Naumann</name>
       <Placemark>
-        <name>Mount Glenmary</name>
-        <styleUrl>#icon-1634-E65100-nodesc</styleUrl>
-        <Point>
-          <coordinates>
-            169.878333,-43.976667,0
-          </coordinates>
-        </Point>
-      </Placemark>
-      <Placemark>
-        <name>Naumann Range</name>
+        <name>Naumann</name>
         <styleUrl>#poly-FBC02D-2000-77-nodesc</styleUrl>
         <Polygon>
           <outerBoundaryIs>
             <LinearRing>
               <tessellate>1</tessellate>
               <coordinates>
-                169.8772497,-43.9610175,0
-                169.8659194,-43.9884425,0
-                169.8614559,-44.0086949,0
-                169.8611128,-44.0242495,0
-                169.8714126,-44.0479431,0
-                169.8767394,-44.0615192,0
-                169.8882577,-44.0529354,0
-                169.92036,-44.0196703,0
-                169.9325238,-43.9988167,0
-                169.9740662,-43.8568861,0
-                169.9946653,-43.7922381,0
-                169.9899602,-43.7798632,0
-                169.982511,-43.7684795,0
-                169.9621212,-43.7729796,0
-                169.9608443,-43.7890987,0
-                169.9678086,-43.8042264,0
-                169.9431771,-43.8542882,0
-                169.8889225,-43.940503,0
-                169.8772497,-43.9610175,0
+                169.86901,-43.971396,0
+                169.84532,-43.974114,0
+                169.83811,-43.985973,0
+                169.831587,-43.99857,0
+                169.781462,-44.012892,0
+                169.762236,-44.03437,0
+                169.785239,-44.063734,0
+                169.868323,-44.08692,0
+                169.896132,-44.057566,0
+                169.907462,-44.022521,0
+                169.926344,-44.003262,0
+                169.928061,-43.981032,0
+                169.927374,-43.966455,0
+                169.893729,-43.960771,0
+                169.86901,-43.971396,0
               </coordinates>
             </LinearRing>
           </outerBoundaryIs>
         </Polygon>
       </Placemark>
-    </Folder>
-    <Folder>
-      <name>The Branches</name>
       <Placemark>
-        <name>The Branches</name>
-        <styleUrl>#poly-FBC02D-1200-77-nodesc</styleUrl>
-        <Polygon>
-          <outerBoundaryIs>
-            <LinearRing>
-              <tessellate>1</tessellate>
-              <coordinates>
-                168.6935493,-44.5951499,0
-                168.6756966,-44.5985724,0
-                168.6653969,-44.6371844,0
-                168.6633369,-44.659167,0
-                168.6887428,-44.6645393,0
-                168.7615272,-44.6811414,0
-                168.8226387,-44.6747941,0
-                168.8604042,-44.6401159,0
-                168.8562843,-44.6161709,0
-                168.8089058,-44.5883042,0
-                168.7443611,-44.5902602,0
-                168.736808,-44.6073723,0
-                168.6935493,-44.5951499,0
-              </coordinates>
-            </LinearRing>
-          </outerBoundaryIs>
-        </Polygon>
+        <name>Mount Glenmary</name>
+        <styleUrl>#icon-1634-F9A825-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            169.878333,-43.976667,0
+          </coordinates>
+        </Point>
       </Placemark>
     </Folder>
   </Document>
